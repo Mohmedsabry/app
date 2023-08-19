@@ -74,6 +74,10 @@ fun Login(navController: NavController) {
                                     "login success",
                                     Toast.LENGTH_SHORT
                                 ).show()
+                                navController.navigate(Screens.HomeScreen){
+                                    launchSingleTop
+                                    navController.popBackStack()
+                                }
                             }
                         }
                     }

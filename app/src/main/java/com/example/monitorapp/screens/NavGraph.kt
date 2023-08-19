@@ -15,5 +15,8 @@ fun DoNavigation() {
         composable(Screens.LoginScreen) {
             Login(navController = navController)
         }
+        composable(Screens.HomeScreen){
+            HomeScreen()
+        }
     }
 }

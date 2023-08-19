@@ -1,6 +1,8 @@
 package com.example.monitorapp.screens
 
 object Screens {
-    val LoginScreen ="login"
-    val SingUpScreen ="singUp"
+    const val LoginScreen ="login"
+    const val SingUpScreen ="singUp"
+    const val HomeScreen ="home"
+
 }
